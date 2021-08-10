@@ -27,7 +27,7 @@ RUN npm install
 ```
 Por que descarga todas las dependencias incluso si no cambiamos las dependencias
 ## El trucazo
-De acuerdo del orden en que docker ejecuta las acciones, podemos copiar los archivos de las dependencias, de manera separada al código, entonces copiando primero los archivos del package manager, docker, detectara que a manos que haya cambios en las dependencias, ejecutara el comando de 
+De acuerdo al orden en que docker ejecuta las acciones, podemos copiar los archivos de las dependencias, de manera separada al código, entonces copiando primero los archivos del package manager, docker, detectara que a manos que haya cambios en las dependencias, ejecutara el comando de 
 ```json 
 RUN npm install
 ```
